@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Countdown Timer</h1>
+    <div class="wrapper">
+        <div class="box">
+            weeks
+            <span id="weeks">05</span>
+        </div>
+        <div class="box">
+            Days
+            <span id="days">15</span>
+        </div>
+        <div class="box">
+            Hours
+            <span id="hours">19</span>
+        </div>
+        <div class="box">
+            Minutes
+            <span id="minutes">35</span>
+        </div>
+        <div class="box">
+            Seconds
+            <span id="seconds">55</span>
+        </div>
+        
+    </div>
+    
+    <h2>Stopwatch</h2>
+    <div class="container">
+
+        <div id="display">
+            00:00:00
+        </div>
+        <div class="buttons">
+            <button id="startStop" onclick="startStop()">Start</button>
+            <button id="reset" onclick="reset()">Reset</button>
+
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
